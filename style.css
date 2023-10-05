@@ -1,0 +1,457 @@
+html body {
+    padding: 0;
+    margin:0;}
+    body{
+background-image: url(./desktop-wallpaper-low-light-graphy-of-brown-window-blinds-·-stock-low-light.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+.header{
+    display: flex;
+    width: 60vw;
+    height: 10vh;
+    background-color: rgb(53, 52, 52,0.473);
+    border-radius: 2%;
+    margin-left: 24vw;
+    margin-top: 8vh;
+}
+.parent{
+ display: flex;
+ flex-direction: row;
+ width:35vw;
+ justify-content: space-around;
+}
+.child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.child a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 35px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 30px;
+    font-family: cursive;
+}
+.char{
+    width: 15vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 45px;
+    font-family: cursive;
+    text-decoration: double;
+    color: rgb(160, 160, 160);
+    margin-bottom: 200px;
+    margin-left: 155px;
+}
+.child :hover{
+    color: wheat;
+    text-decoration: underline;
+
+}
+.contein{
+    display: flex;
+    flex-direction: row;
+    margin-top: 19vw;
+    margin-left: 5vw;
+    width: 40vw;
+    height: 60vh;
+}
+.General{
+    display: flex;
+    flex-direction: row;
+     width: 5vh;
+     height: 3vh;
+     margin-left: 45%;
+}
+.a1{
+    font-size: 35px;
+    font-family:monospace;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 30vh;
+
+   
+
+
+}
+.picture1{
+    width: 9vw;
+    height: 23vh;
+    border-radius: 5%;
+}
+.info{
+    width:20vh;
+    height:19vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(216, 142, 16);
+    
+}
+.info :hover{
+    text-decoration: underline rgb(43, 221, 227);
+
+}
+.info button{
+    height: 13vh;
+    color: rgb(216, 142, 10);
+    background-color:rgba(0,0,0,0.01);
+    font-size: 24px;
+    font-family: cursive;
+}
+.edu{
+    display: flex;
+    flex-direction: row;
+    width: 10vw;
+    height: 5vh;
+
+}
+#ed{ display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 20vh;
+    background-color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    border-style: solid blue;
+    border-top: 15px;
+}
+.root{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 2vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.root p {
+    font-size: 35px;
+    font-family: cursive;
+
+}
+.fgd{
+    color:rgba(245, 222, 179,0.75);
+}
+.html{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+.h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 45vh;
+    height: 3.5vh;
+    margin-left: 32px;
+
+}
+.html1{
+    background-color: #473838 ;
+    width: 35vh;
+    height: 3.5vh;
+    border: double black;
+}
+.html2{
+    background-color: gray;
+    width: 16vh;
+    height: 3.5vh;
+    border: double black;
+    margin-left: -7px;
+    border-left: none;
+}
+.h1 span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.r{
+    margin-left: 40px;
+    font-size: 20px;    
+    color: #473838;
+    font-family: cursive;
+}
+.l{ 
+    margin-left: 105px;
+    font-size: 20px;
+    color: gray;
+    font-family: cursive;
+
+}
+.wrooten{
+    color: burlywood;
+}
+.double{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 45vh;
+    height: 3.5vh;
+    margin-right: 14px;
+}
+.js{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+.js1{
+    background-color: #473838 ;
+    width: 33vh;
+    height: 3.5vh;
+    border: double black;
+
+}
+.js2{
+    background-color: gray;
+    width: 18vh;
+    height: 3.5vh;
+    border: double black;
+    margin-left: -7px;
+    border-left: none;
+}
+.wrooten1{
+    color: burlywood;
+    font-size: 26px;
+    font-family: cursive;
+    margin-right: 15px;
+}
+.js span{
+    align-self: center;
+    align-items: center;
+}
+.j1{
+    margin-left: 105px;
+    font-size: 20px;
+    color: gray;
+    font-family: cursive;
+}
+.j2{
+    margin-left: 40px;
+    font-size: 20px;    
+    color: #473838;
+    font-family: cursive;
+}
+.css1{
+    margin-left: 105px;
+    font-size: 20px;
+    color: gray;
+    font-family: cursive;
+}
+.css2{
+    margin-left: 40px;
+    font-size: 20px;    
+    color: #473838;
+    font-family: cursive;
+}
+.cs1{
+    background-color: #473838 ;
+    width: 22vh;
+    height: 3.5vh;
+    border: double black;
+}
+.cs2{
+    background-color: gray;
+    width: 27vh;
+    height: 3.5vh;
+    border: double black;
+    margin-left: -7px;
+    border-left: none;
+}
+.double1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 45vh;
+    height: 3.5vh;
+    margin-left: 49px;
+}
+.wrooten2{
+    color: burlywood;
+    font-size: 29px;
+    font-family: cursive;
+    margin-left: 30px;
+}
+.asat{
+
+    position: absolute;
+    top: 89vh;
+    left: 92vh;
+    font-size: 45px;
+    color: burlywood;
+    text-shadow: #473838;
+    
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 35vh;
+    margin-left: 36vh;
+}
+.con{
+    font-size: 36px;
+    font-family: cursive;
+    color: #473838;
+    margin-right: 22.5vw;
+    margin-bottom: 3vh;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.icons a{
+    display: flex;
+    width: 7.5vw;
+    height: 5.25vh;
+    border-radius: 3%;
+
+}
+.work-root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: flex-start ;
+align-content: flex-start;
+}
+#Wbut{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 28px;
+    font-family: cursive;
+    color:burlywood;
+    background: none;
+}
+.Works{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 85vw;
+    height: 80vh;
+}
+.todo{
+    font-size: 39px;
+    font-family: cursive;
+    color: #473838;
+    
+
+}
+#toDo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 42vw;
+    height: 80vh;
+    margin-right: 46h;
+}
+#write{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 37vw;
+}
+#text{
+    width: 28vw;
+    height: 7.5vh;
+    background-color: #473838;
+    color: bisque;
+    font-size: 23px;
+
+}
+#pahust{
+    display: flex;
+    flex-direction: column;
+    margin-right: 131px;
+    max-height: 300px;
+    margin-left: 2px;
+    width: 58.5vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #473838;
+    box-sizing: border-box;
+
+
+    
+}
+.div{
+    border-color: wheat;
+
+}
+#carusel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 55vw;
+    height: 78vh;
+}
+.nameCar{
+    font-size: 38px;
+    font-family: cursive;
+    color: #000000;
+    background-color: rgba(255,255,255,0.22);
+}
+.caruselRoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#next{
+    width: 4vw;
+    height: 3.5vh;
+    background: none;
+border: rgb(64, 45, 11) solid;
+color: wheat;
+margin-left: 10px;
+}
+#prevois{
+    width: 4vw;
+    height: 3.5vh;
+    background: none;
+    border: rgba(64,45,11,0.8) solid;
+    color: wheat;
+    margin-right: 10px;
+}
+#picture img{
+     
+        display: flex;
+        flex-direction: row;
+        width: 35vw;
+        height: 45vh;
+}
+.home1{
+    background: none;
+    font-size: 35px;
+    color: wheat;
+    text-decoration: none;
+    margin-top: 60px;
+}
+.home1 :hover{
+    color: #473838;
+    text-decoration: underline;
+}
